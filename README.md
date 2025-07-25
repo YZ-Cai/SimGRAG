@@ -1,6 +1,8 @@
-# SimGRAG
+# SimGRAG: Leveraging Similar Subgraphs for Knowledge Graphs Driven Retrieval-Augmented Generation
+[![arXiv](https://img.shields.io/badge/arXiv-2412.15272-b31b1b.svg)](https://arxiv.org/abs/2412.15272)
+[![ACL](https://img.shields.io/badge/ACL-Paper-blue.svg)](https://aclanthology.org/2025.findings-acl.163/)
 
-The is the repository for the paper "SimGRAG: Leveraging Similar Subgraphs for Knowledge Graphs Driven Retrieval-Augmented Generation".
+The is the repository for the ACL 2025 paper _"SimGRAG: Leveraging Similar Subgraphs for Knowledge Graphs Driven Retrieval-Augmented Generation"_.
 SimGRAG is a KG-driven RAG approach that can support various KG based tasks, such as question answering and fact verification.
 
 ## Prerequisites
@@ -91,3 +93,26 @@ python factKG_query.py
 
 The results can be found in the file that assigned to the "output_filename" in the configuration file. For example, "results/FactKG_query.txt".
 Each line of the result file is a dictionary, in which the key "correct" presents the correctness of the final answer.
+
+## Citation
+
+If you use this project in your research, please cite this paper:
+
+```bibtex
+@inproceedings{simgrag2025,
+    title = "{SimGRAG}: Leveraging Similar Subgraphs for Knowledge Graphs Driven Retrieval-Augmented Generation",
+    author = "Cai, Yuzheng  and
+      Guo, Zhenyue  and
+      Pei, Yiwen  and
+      Bian, Wanrui  and
+      Zheng, Weiguo",
+    booktitle = "Findings of the Association for Computational Linguistics: ACL 2025",
+    month = jul,
+    year = "2025",
+    address = "Vienna, Austria",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2025.findings-acl.163/",
+    pages = "3139--3158",
+    ISBN = "979-8-89176-256-5"
+}
+```
